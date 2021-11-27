@@ -1,7 +1,8 @@
-# https://github.com/inikulin/parse5/blob/master/lib/common/html.js
+# https://github.com/inikulin/parse5/blob/master/packages/parse5/lib/common/html.js
 # Я не хочу тянуть всю зависимость
 @tag_hash = {
     A: 'a',
+    AUDIO: 'audio', # PATCH
     ADDRESS: 'address',
     ANNOTATION_XML: 'annotation-xml',
     APPLET: 'applet',
@@ -142,7 +143,7 @@
     SVG: 'svg',
 
     VAR: 'var',
-    VIDEO: 'video',
+    VIDEO: 'video', # PATCH
 
     WBR: 'wbr',
 
